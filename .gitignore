@@ -1,0 +1,56 @@
+# ================================
+# Node / Next.js (frontend/)
+# ================================
+
+# dependencies
+frontend/node_modules/
+
+# production
+frontend/.next/
+frontend/out/
+
+# misc
+frontend/.env.local
+frontend/.env.*.local
+frontend/.turbo/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.vercel/
+
+# Mac system files
+frontend/.DS_Store
+
+# ================================
+# Python / FastAPI (backend/)
+# ================================
+
+# Byte-compiled / optimized / DLL files
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.so
+
+# Virtual environment
+backend/venv/
+backend/env/
+backend/.env
+
+# Jupyter Notebook checkpoints (if any)
+backend/.ipynb_checkpoints
+
+# Logs and local files
+backend/*.log
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.pylint.d/
+backend/.coverage
+backend/coverage.xml
+backend/htmlcov/
+
+# Mac system files
+backend/.DS_Store
+
+# IDE/editor-specific
+.vscode/
+.idea/
+*.swp
